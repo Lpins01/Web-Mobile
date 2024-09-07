@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação do DOM com JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Manipulação do DOM com JavaScript</h1>
+        <button id="theme-toggle">Trocar Tema</button>
+    </header>
+
+    <!-- Seção de Formulário -->
+    <section>
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" placeholder="Seu nome">
+            <label for="femail">E-mail:</label>
+            <input type="text" id="femail" placeholder="Seu e-mail">
+            <p id="error-message"></p>
+            <button type="submit" id="submit-button">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Seção de Lista de Tarefas -->
+    <section>
+        <h2>Lista de Tarefas</h2>
+        <input type="text" id="task-input" placeholder="Nova Tarefa">
+        <button id="add-task">Adicionar Tarefa</button>
+        <ul id="task-list"></ul>
+    </section>
+</body>
+</html>
