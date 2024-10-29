@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Carne",
+        "doce": false,
+        "vegana": false,
+        "validade": "2025"
+    },
+    {
+        "nome": "Alface",
+        "doce": false,
+        "vegana": true,
+        "validade": "2024"
+    },
+    {
+        "nome": "Paçoca",
+        "doce": true,
+        "vegana": true,
+        "validade": "2030"
+    }
+]
